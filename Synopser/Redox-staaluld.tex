@@ -1,0 +1,54 @@
+\textbf{Spørgsmål}\\
+Med udgangspunkt i eksperiment ”Bestemmelse af jernindholdet i ståluld” skal du redegøre for, hvorledes man i praksis kan bestemme indholdet af jern i ståluld og indstilling af kaliumpermanganat opløsning.
+
+I din gennemgang kan du gøre brug af nedenstående stikord. 
+
+I din besvarelse skal bilagene inddrages.
+
+\vspace{0.5 cm}
+\textbf{Stikord}\\
+Reduktion, oxidation, oxidationstal, afstemning af redoxreaktioner og masseprocent.
+
+\section*{Synopsis}
+\newcommand{\RNum}[1]{\textit{\uppercase\expandafter{\romannumeral #1\relax}}}
+Alle udregninger ligger i et Maple dokument i datamappen for dette forsøg.
+
+\subsection{Bestemmelse af $MnO_4^-$'s koncentration}
+\subsubsection{Afstemning af redoxreaktion}
+Ved sammenblanding med oxalat ($C_2O_4^{2-}$) fra natriumoxalat ($Na_2C_2O_4$) sker følgende reaktion:
+$$MnO_4^- + C_2 O_4 ^{2-} \rightarrow Mn^{2+} + CO_2$$
+Denne afstemmes som redoxreaktion. 
+Først bestemmes oxidationstal:
+$$\overset{+\RNum{7}}{Mn}O_4^- + \overset{+\RNum{3}}{C_2} O_4 ^{2-} \rightarrow \overset{+\RNum{2}}{Mn^{2+}} + \overset{+\RNum{4}}{C}O_2$$
+
+Ved at kigge på ændring i oxidationstal får vi da:
+$$Mn: 5\downarrow$$
+$$ C: 1\uparrow$$
+For at få samlet ændring på $0$ på begge sider, tager vi 5 af hvert carbon. 
+Da vi har en reaktant med 2 carbon per molekyle bliver vi dog nødt til at gange hele reaktionen med 2, da vi ellers skulle have $\frac{5}{2}$ oxalat:
+$$2\space{} MnO_4^- + 5 C_2 O_4 ^{2-} \rightarrow 2 Mn^{2+} + 10 CO_2$$
+Vi ser nu en samlet ladning på $-12$ hos reaktanterne og en samlet ladning på $+4$ hos produkterne. 
+Dermed er der en ladningsforskel på 16. 
+Da reaktionen foregår sammen med svovlsyre, kan der tilføres 16 $H^+$ hos reaktanterne og tilsvarende 8 $H_2 O$ hos produkterne. 
+$$16 H^+ + 2 MnO_4^- + 5 C_2 O_4 ^{2-} \rightarrow 2 Mn^{2+} + 10 CO_2 + 8 H_2 O$$
+Hvis man tæller O'er på begge sider ser man nu at reaktionen stemmer overens. 
+Dermed er redoxreaktionen afstemt. 
+
+\subsubsection{Titrering med $MnO_4^{-}$ på $Na_2C_2O_4$}
+Da $MnO_4^{2-}$ har en markant pink farve, vil den kunne ses hvis ikke den reagerer med $C_2O_4^{-}$ hvor den i stedet bliver til den farveløse $Mn^{2+}$ jvf. reaktionen i forrige afsnit. 
+I udregningsdokumentet ses hvordan koncentrationen af $KMnO_4$ bestemmes fra det tilsatte volumen.
+
+\subsection{Bestemmelse af jernindhold i ståluld}
+\subsubsection{Reaktion mellem svovlsyre ($H_2 SO_4$) og jern}
+Den første del af forsøget hvor jernindholdet bestemmes, handler om at få fjernet jernet fra stålulden. 
+Dette gøres det ved at lægge det i stærk svovlssyre(2M) natten over. 
+Da sker følgende reaktion:
+$$  Fe + 2 H^+ \rightarrow Fe^{2+} + H_2  $$
+Reaktionen forløber kun fordi jern ikke er et ædelmetal, og det står derfor før H i spændingsrækken ("Hvis metallet står før ionen - så forløber reaktionen").
+
+\subsubsection{Reaktion mellem $Fe(II)$ og $MnO_4^-$}
+Her sker igen en redoxreaktion.
+Den afstemte ser sådan her ud, og selve afstemningen er ret standard. 
+Bemærk at der stadig er svovlsyre i opløsningen, hvorfor der tilføjes passende $H^+$:
+$$ 8H^+ + 5 Fe^{2+} + MnO_4^- \rightarrow Mn^{2+} + 5 Fe^{3+} + 4 H_2O $$
+Da vi kender koncentrationen af $MnO_4^-$ fra bestemmelse i forrige afsnit, og vi ved hvornår vi har brugt alt jernet op fra at opløsningen tager farve (da der er $MnO_4^-$ i den hvis det ikke reagerer med jernet), kan vi bestemme stofmængden af jern som 5 gange så stor som den tilsatte mængde $MnO_4^-$.
