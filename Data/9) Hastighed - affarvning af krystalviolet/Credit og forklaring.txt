@@ -1,0 +1,9 @@
+Data er udlånt af Jakob.
+
+Billedet i mappen viser det fuldspektrum der er lavet før forsøget. Det viser at den maksimale absorbtion ligger på 585 nm.
+Billedet hører derfor til delforsøg a).
+
+
+Delforsøg b) er eftervisning af LBs lov. Data til dette ses inde i forsøgsvejledningen. 
+
+Delforsøg c) er et screecnhot af absorbansen i forhold til tiden i filen "reaktionshastighed"

@@ -1,5 +1,10 @@
-Alt data ligger p� dette link:
+﻿Alt data ligger p� dette link:
 https://drive.google.com/open?id=0B8Vkj1tF1YrsN25kS3k1eU5Yclk
 
 De to LoggerPro filer er Frederiks og Mikkels databehandling p� et enkelt datas�t.
 Data ligger inde i mappen "Alt fucking data".
+
+
+------
+
+Jeg er ret sikker på at de to grafer er lavet ud fra den excelfil jeg har lagt ude i mappen fra hold 2.
